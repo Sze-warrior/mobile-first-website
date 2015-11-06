@@ -1,9 +1,17 @@
 body { margin: 0; padding: 0px; }
 
-.container { max-width: 700px; margin: 0 auto; padding: 0px 40px; }
-
 p { color: red; }
 
-h1 { color: blue; }
+.container { max-width: 700px; min-width: 320px; margin: 0 auto; background-image: url("../grid.png"); background-size: cover; height: 100%; }
+
+.row { width: 100%; }
+
+.col-1 { width: 6.38888%; }
+
+.col-2 { width: 15.83%; }
+
+.col-1, .col-2 { background-color: black; min-height: 30px; margin-right: 8px; float: left; box-sizing: border-box; }
+
+.col-1:last-child, .col-2:last-child { margin-right: 0; }
 
 /*# sourceMappingURL=styles.css.map */
