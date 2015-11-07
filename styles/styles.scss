@@ -1,7 +1,6 @@
 $black: #000;
 $max-width: 700px;
 $min-width: 320px;
-
 $one-hundred-percentage: 100%;
 
 body {
@@ -19,35 +18,52 @@ p{
 	margin: 0 auto;
     height: 100%;
     width: 100%;
+    background-image: url(../grid.png);
 }
 
 .row{
 	width: $one-hundred-percentage;
-	float: left;
-	display: inline-flex;
 	padding: 15px 0px 15px 0px;
+
+	&:first-child{
+		padding: 0px 0px 15px 0px;
+	}
 }
 
 .col-1{
-	width: 7.3%;
+    width: 6.75555555%;
 }
 
 .col-2 {
-	width: 15.83%;
+	width: 15.22223%;
 }
 
 .col-3 {
-    width: 24.8333%;
+    width: 23.688888%;
 }
 
 .col-4{
- width: 32.8333%;
+ 	width: 32.177777%;
 }
 
-.col-1, .col-2, .col-3, .col-4{
+.col-5{
+ 	width: 49.366666%;
+}
+
+.col-7{
+ 	width: 49.366666%;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-7{
     background-color: black;
     min-height: 30px;
-    margin-right: 8px
+    margin-right: 8px;
+	display: inline-flex;
+
+    @media screen and (max-width:699px){
+    	width: 100%;
+    	display: block;
+    }
 }
 
 
