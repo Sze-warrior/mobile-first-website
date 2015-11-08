@@ -13,30 +13,29 @@ p{
 	max-width: $max-width;
 	min-width: $min-width;
 	margin: $zero auto;
-    height: $one-hundred-percentage;
-    width: $one-hundred-percentage;
-    background-image: url(../grid.png);
 }
 
 .row{
+    padding: 15px 0px;
 	width: $one-hundred-percentage;
-	padding: 15px 0px 15px 0px;
+    float: left;
+
 }
 
 .col-1{
-    width: 7.283%;
+    width: 7.287%;
 }
 
 .col-2 {
-	width: 15.23%;
+	width: 15.716%;
 }
 
 .col-3 {
-    width: 23.71%;
+    width: 24.145%;
 }
 
 .col-4{
- 	width: 32.19%;
+ 	width: 32.573%;
 }
 
 .col-5{
@@ -44,27 +43,27 @@ p{
 }
 
 .col-6{
- 	width: 49.13%;
+ 	width: 49.43%;
 }
 
 .col-7{
- 	width: 57.23%;
+ 	width: 57.858%;
 }
 
 .col-8{
- 	width: 66%;
+ 	width: 66.287%;
 }
 
 .col-9{
-    width: 74.56%;
+    width: 74.716%;
 }
 
 .col-10{
-    width: 83%;
+    width: 83.143%;
 }
 
 .col-11{
-    width: 91.49%;	
+    width: 91.573%;	
 }
 
 .col-12{
@@ -74,7 +73,6 @@ p{
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6,
 .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
     background-color: black;
-    min-height: 30px;
     margin-right: 8px;
     display: inline-block;
     float: left;
