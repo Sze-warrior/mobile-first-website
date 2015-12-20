@@ -1,0 +1,45 @@
+@import "variables";
+@import "main";
+
+.btn-default {
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+.green-btn {
+	@extend .btn-default;
+	background-color: $green;
+}
+
+.error-btn {
+	@extend .btn-default;
+	background-color: $red;	
+}
+
+.orange-btn {
+	@extend .btn-default;
+	background-color: orange;		
+}
+
+.grey-btn {
+	@extend .btn-default;
+	background-color: grey;
+}
+
+.pink-btn {
+	@extend .btn-default;
+	background-color: pink;	
+}
+
+.yellow-btn {
+	@extend .btn-default;
+	background-color: pink;	
+}
+
+
+.black-btn {
+	@extend .btn-default;
+	background-color: $black;
+}
