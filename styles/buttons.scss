@@ -28,11 +28,6 @@
 	background-color: grey;
 }
 
-.pink-btn {
-	@extend .btn-default;
-	background-color: pink;	
-}
-
 .black-btn {
 	@extend .btn-default;
 	background-color: $black;	

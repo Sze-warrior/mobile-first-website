@@ -72,7 +72,7 @@ p { color: orange; text-align: left; }
 
 .col-1:last-child, .col-2:last-child, .col-3:last-child, .col-4:last-child, .col-5:last-child, .col-6:last-child, .col-7:last-child, .col-8:last-child, .col-9:last-child, .col-10:last-child, .col-11:last-child, .col-12:last-child { margin-right: 0; }
 
-.btn-default, .green-btn, .error-btn, .orange-btn, .grey-btn, .pink-btn, .black-btn, .yellow-btn { background-color: blue; color: white; padding: 10px; text-align: center; }
+.btn-default, .green-btn, .error-btn, .orange-btn, .grey-btn, .black-btn, .yellow-btn, .pink-btn { background-color: blue; color: white; padding: 10px; text-align: center; }
 
 .green-btn { background-color: green; }
 
@@ -81,8 +81,6 @@ p { color: orange; text-align: left; }
 .orange-btn { background-color: orange; }
 
 .grey-btn { background-color: grey; }
-
-.pink-btn { background-color: pink; }
 
 .black-btn { background-color: black; }
 
