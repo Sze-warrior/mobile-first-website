@@ -33,11 +33,15 @@
 	background-color: pink;	
 }
 
+.black-btn {
+	@extend .btn-default;
+	background-color: $black;	
+}
+
 .yellow-btn {
 	@extend .btn-default;
 	background-color: pink;	
 }
-
 
 .black-btn {
 	@extend .btn-default;
