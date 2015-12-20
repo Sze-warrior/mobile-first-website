@@ -47,3 +47,8 @@
 	@extend .btn-default;
 	background-color: $black;
 }
+
+.pink-btn {
+	@extend .btn-default;
+	background-color: pink;
+}
