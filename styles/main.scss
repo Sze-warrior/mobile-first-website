@@ -78,7 +78,7 @@ p{
     display: inline-block;
     float: left;
 
-    @media screen and (max-width:699px){
+    @media screen and (max-width:$mobile){
     	width: $one-hundred-percentage;
     	display: block;
     }
