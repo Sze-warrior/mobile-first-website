@@ -15,12 +15,28 @@ header{
     		color: $white;
     		font-size: 25px;
     		padding-top: 18px;
+
+    		@media screen and (max-width: $mobile){
+    			padding-left: 15px;
+    			font-size: 22px;
+    		}
 		}
 	}
 
 	nav {
 
 		color: $white;
+
+		#navbar-toggle {
+			display: none;
+			font-size: 18px;
+			padding: 20px 15px 0px;
+
+			@media screen and (max-width:$mobile){
+				display: block;
+				float: right;
+			}
+		}
 
 		ul{
 			float: right;
