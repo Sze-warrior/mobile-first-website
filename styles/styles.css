@@ -2,7 +2,7 @@ body { margin: 0; padding: 0; }
 
 p { color: orange; text-align: left; margin: 15px; }
 
-.container { max-width: 700px; min-width: 320px; margin: 0 auto; padding-top: 60px; }
+.container { max-width: 850px; min-width: 320px; margin: 0 auto; padding-top: 60px; }
 
 .row { padding: 15px 0px; width: 100%; float: left; }
 
@@ -39,7 +39,7 @@ body { margin: 0; padding: 0; }
 
 p { color: orange; text-align: left; margin: 15px; }
 
-.container { max-width: 700px; min-width: 320px; margin: 0 auto; padding-top: 60px; }
+.container { max-width: 850px; min-width: 320px; margin: 0 auto; padding-top: 60px; }
 
 .row { padding: 15px 0px; width: 100%; float: left; }
 
@@ -96,7 +96,7 @@ body { margin: 0; padding: 0; }
 
 p { color: orange; text-align: left; margin: 15px; }
 
-.container { max-width: 700px; min-width: 320px; margin: 0 auto; padding-top: 60px; }
+.container { max-width: 850px; min-width: 320px; margin: 0 auto; padding-top: 60px; }
 
 .row { padding: 15px 0px; width: 100%; float: left; }
 
@@ -136,5 +136,4 @@ header nav { color: #fff; }
 header nav ul { float: right; display: inline-block; list-style: none; padding-top: 25px; margin: 0; }
 header nav ul.nav-list li { float: right; padding-right: 20px; }
 @media screen and (max-width: 701px) { header nav ul { display: none; } }
-
 /*# sourceMappingURL=styles.css.map */

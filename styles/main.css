@@ -2,7 +2,7 @@ body { margin: 0; padding: 0; }
 
 p { color: orange; text-align: left; margin: 15px; }
 
-.container { max-width: 700px; min-width: 320px; margin: 0 auto; padding-top: 60px; }
+.container { max-width: 850px; min-width: 320px; margin: 0 auto; padding-top: 60px; }
 
 .row { padding: 15px 0px; width: 100%; float: left; }
 
