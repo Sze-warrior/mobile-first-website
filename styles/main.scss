@@ -8,12 +8,14 @@ body {
 p{
     color: orange;
     text-align: left;
+    margin: 15px;
 }
 
 .container {
 	max-width: $max-width;
 	min-width: $min-width;
 	margin: $zero auto;
+    padding-top: 60px;
 }
 
 .row{
