@@ -15,6 +15,7 @@ header{
     		color: $white;
     		font-size: $header-name-desktop;
     		padding-top: 18px;
+    		padding-left: 20px;
 
     		@media screen and (max-width: $mobile){
     			padding-left: 15px;
