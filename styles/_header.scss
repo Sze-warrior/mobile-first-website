@@ -1,5 +1,6 @@
 @import "variables";
 @import "main";
+@import "mixins";
 
 header{
 	background-color: $black;
@@ -16,50 +17,69 @@ header{
     		font-size: $header-name-desktop;
     		padding-top: 18px;
     		padding-left: 20px;
+    		border-bottom: none;
+    		@include transition(.2s);
+
+    		a{
+    			text-decoration: none;
+    			border-bottom: 1px solid $black;
+
+    		&:hover {
+    			border-bottom: 1px solid $white;
+    		}
 
     		@media screen and (max-width: $mobile){
     			padding-left: 15px;
     			font-size: 22px;
     		}
-		}
-	}
-
-	nav {
-
-		color: $white;
-
-		#navbar-toggle {
-			display: none;
-			font-size: 18px;
-			padding: 20px 15px 0px;
-
-			@media screen and (max-width:$mobile){
-				display: block;
-				float: right;
-			}
+    		}
 		}
 
-		ul{
-			float: right;
-    		display: inline-block;
-    		list-style: none;
-    		padding-top: 25px;
-    		margin: 0;
+		a {
+			color: $white;
+			@include transition(.2s);
+    		border-bottom: 1px solid $black;
+    		text-decoration: none;
 
-			&.nav-list{
-				li{	
-					float: left;
-					padding-right: 20px;
+    		&:hover {
+    			border-bottom: 1px solid $white;
+				color: $green;    		
+    		}
+		}
 
-					a {
-						color: $white;
-					}
+		nav {
+
+			color: $white;
+
+			#navbar-toggle {
+				display: none;
+				font-size: 18px;
+				padding: 20px 15px 0px;
+
+				@media screen and (max-width:$mobile){
+					display: block;
+					float: right;
 				}
 			}
 
-    		@media screen and (max-width:$mobile){
-    			display: none;
-    		}
+			ul{
+				float: right;
+    			display: inline-block;
+    			list-style: none;
+    			padding-top: 25px;
+    			margin: 0;
+
+				&.nav-list{
+					li{	
+						float: left;
+						padding-right: 20px;
+					}
+				}
+
+    			@media screen and (max-width:$mobile){
+    				display: none;
+    			}
+			}
 		}
 	}
 }
