@@ -8,6 +8,14 @@ $(document).ready(function(){
 
     $(window).on('resize', function(){
         var nav = $('nav ul');
-        $(nav).css('display', '');
+        
+        if ($(window).width() > 700)
+        {
+        	$(nav).show();
+        }else{
+            $(nav).hide();
+        }
+
+        $(nav).css('display',''); //this is the alt in JQuery to hide/show the nav when the width resizes.   
     });	
 });
