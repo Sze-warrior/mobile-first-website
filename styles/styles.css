@@ -78,12 +78,13 @@ header .header-container h1 { float: left; margin: 0; color: #fff; font-size: 25
 header .header-container h1 a { text-decoration: none; border-bottom: 1px solid #000; }
 header .header-container h1 a:hover { border-bottom: 1px solid #fff; }
 @media screen and (max-width: 699px) { header .header-container h1 a { padding-left: 15px; font-size: 22px; } }
-header .header-container a { color: #fff; -webkit-transition: 0.2s; transition: 0.2s; border-bottom: 1px solid #000; text-decoration: none; }
-header .header-container a:hover { border-bottom: 1px solid #fff; color: #4CD964; }
+header .header-container a { color: #fff; -webkit-transition: 0.2s; transition: 0.2s; border-bottom: 0px solid #000; text-decoration: none; padding-bottom: 10px; }
+header .header-container a:hover { border-bottom: 3px solid #fff; padding-bottom: 5px; color: #4CD964; }
 header .header-container nav { color: #fff; }
 header .header-container nav #navbar-toggle { display: none; font-size: 18px; padding: 20px 15px 0px; }
 @media screen and (max-width: 699px) { header .header-container nav #navbar-toggle { display: block; float: right; } }
 header .header-container nav ul { float: right; display: inline-block; list-style: none; padding-top: 25px; margin: 0; }
 header .header-container nav ul.nav-list li { float: left; padding-right: 20px; }
 @media screen and (max-width: 699px) { header .header-container nav ul { display: none; } }
+
 /*# sourceMappingURL=styles.css.map */
