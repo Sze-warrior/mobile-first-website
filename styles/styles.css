@@ -90,4 +90,5 @@ header .header-container nav ul { float: right; display: inline-block; list-styl
 @media screen and (max-width: 699px) { header .header-container nav ul { display: none; background-color: red; width: 100%; padding-top: 15px; z-index: 2; } }
 header .header-container nav ul.nav-list li { float: left; padding-right: 20px; }
 @media screen and (max-width: 699px) { header .header-container nav ul.nav-list li { display: block; width: 100%; padding-bottom: 15px; text-align: center; font-size: 18px; } }
+
 /*# sourceMappingURL=styles.css.map */
