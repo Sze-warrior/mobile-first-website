@@ -262,7 +262,17 @@
 		     <p>col-12</p>		
 		   </div>																	
 		</section>										
-
 	</main>
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+   
+   <script> 
+   	if(typeof jquery == 'undefined'){
+   		document.write('<script src="scripts/jquery.min.js">\x3C/script>');
+   	} //The \x3/ is used to tell the browser that there is a script tag inside the document.write and is not just a string. 
+   </script>
+   
+   <script src="scripts/header.js"></script>
    </body>
 </html>
