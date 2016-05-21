@@ -15,7 +15,11 @@ p{
 	max-width: $max-width;
 	min-width: $min-width;
 	margin: 0 auto;
-    padding-top: 60px;
+    padding-top: 50px;
+
+    @media screen and (max-width:$mobile){
+        padding-top: 100px;
+    }
 }
 
 .row{

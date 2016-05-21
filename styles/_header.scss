@@ -4,7 +4,12 @@
 
 header{
 	background-color: $black;
-	height: 70px;
+	height: 65px;
+
+	@media screen and (max-width:$mobile){
+		position: fixed;
+    width: 100%;
+	}
 
 	.header-container{
 		max-width: 850px;
@@ -16,7 +21,7 @@ header{
     		color: $white;
     		font-size: $header-name-desktop;
     		padding-top: 18px;
-    		padding-left: 20px;
+    		padding-left: 10px;
     		border-bottom: none;
     		@include transition(.2s);
 
@@ -29,7 +34,6 @@ header{
     		}
 
     		@media screen and (max-width: $mobile){
-    			padding-left: 15px;
     			font-size: 22px;
     		}
     		}
@@ -38,7 +42,7 @@ header{
 		a {
 			color: $white;
 			@include transition(.2s);
-    		border-bottom: 0px solid $black;
+    		border-bottom: 0px solid transparent;
     		text-decoration: none;
     		padding-bottom: 10px;
 
@@ -56,7 +60,7 @@ header{
 			#navbar-toggle {
 				display: none;
 				font-size: 18px;
-				padding: 20px 15px 0px;
+				padding: 20px 15px 23px;
 
 				@media screen and (max-width:$mobile){
 					display: block;
@@ -71,16 +75,28 @@ header{
     			padding-top: 25px;
     			margin: 0;
 
+    			@media screen and (max-width:$mobile){
+					display: none;
+    				background-color: red;
+    				width: 100%;
+    				padding-top: 15px;
+    				z-index: 2;
+    			}
+
 				&.nav-list{
 					li{	
 						float: left;
 						padding-right: 20px;
+
+						@media screen and (max-width:$mobile){
+    						display: block;
+    						width: 100%;
+							padding-bottom: 15px;
+    						text-align: center;
+    						font-size: 18px;
+						}
 					}
 				}
-
-    			@media screen and (max-width:$mobile){
-    				display: none;
-    			}
 			}
 		}
 	}
