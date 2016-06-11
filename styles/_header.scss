@@ -5,6 +5,15 @@
 header{
 	background-color: $black;
 	height: 65px;
+	position: fixed;
+	width: 100%;
+	@include transition(.2s);
+
+	&.header-bg-red {
+		background-color: red;
+		@include transition(.2s);
+		margin-top: -60px;		
+	}
 
 	@media screen and (max-width:$mobile){
 		position: fixed;
